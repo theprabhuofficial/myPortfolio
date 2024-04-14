@@ -10,6 +10,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { LoadingspinnerComponent } from './loadingspinner/loadingspinner.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { EducationComponent } from './education/education.component';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -17,6 +18,7 @@ import { RouterModule } from '@angular/router';
     PreloaderComponent,
     LoadingspinnerComponent,
     HomeComponent,
+    EducationComponent,
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { RouterModule } from '@angular/router';
     PreloaderComponent,
     LoadingspinnerComponent,
     MatProgressSpinnerModule,
-    HomeComponent
+    HomeComponent,
+    EducationComponent
   ]
 })
 export class ComponentModuleModule { }
