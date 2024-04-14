@@ -23,7 +23,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: -9999; /* Ensures SVG is in the background */
+  z-index: -1; /* Ensures SVG is in the background */
   opacity: 0.1; /* Reduced opacity for subtlety */
 }
 
