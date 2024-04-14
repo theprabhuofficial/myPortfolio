@@ -1,4 +1,13 @@
-<div class="grid grid-cols-2 gap-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 bg-gradient-to-r from-[#242D39] via-[#10253C] to-black">
+
+<!-- <router-outlet></router-outlet> -->
+<div class="grid grid-cols-2 gap-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 bg-gradient-to-r from-[#242D39] via-[#10253C] to-black background-container">
+    <!-- SVG for animated text -->
+    <svg class="svg-text hidden sm:hidden md:block lg:block xl:block" viewBox="0 0 1320 300" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 0;">
+        <text x="50%" y="50%" dy=".3em" text-anchor="middle" class="animate-stroke" fill="transparent" stroke="white" stroke-width="5">
+            HI
+        </text>
+    </svg>    
+
     <div class=" col-span-2 sm:col-span-1 p-4 sm:p-6 md:p-8 lg:p-10 text-center ">
         <p class="text-white text-lg lg:pt-20 md:pt-16 sm:pt-12 lg:text-3xl font-bold">I am Bhagyashri Tamrakar</p>
         <h1 class="mb-4 text-3xl font-extrabold text-gray-700 dark:text-lime-50 md:text-5xl lg:text-6xl">
@@ -12,21 +21,25 @@
         </p>
 
         <button class="relative inline-flex items-center justify-center px-0.5 py-0.5 mb-0.5 me-0.5 overflow-hidden text-sm sm:text-lg lg:text-xl font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-800 to-blue-950 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-800">
+
             <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-l-md group-hover:bg-opacity-0">
-                Download CV
+                <a href="../../../assets/files/Bhagyashri_CV.pdf" download>
+                    Download CV
+                </a>                
             </span>
             <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-r-md group-hover:bg-opacity-0">
                 <img class="w-5 h-5 sm:w-7 sm:h-7" src="../../../assets/images/download.png" alt="">
             </span>
+      
         </button>
         
         
     </div>
    
-    <div class="col-span-2 sm:col-span-1 flex justify-center items-center p-4 sm:p-6 md:p-8 lg:p-10">
-        <figure class="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+    <div class="col-span-2 sm:col-span-1 flex justify-center items-center p-4 sm:p-6 md:p-8 lg:p-10 ">
+        <figure class="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
             <a href="#">
-                <img class="rounded-full w-96 h-100 grow-on-hover" src="../../../assets/images/portfolio.png" alt="Responsive image">
+                <img class="rounded-full w-96 h-100vh border-solid border-4 border-purple-950  grow-on-hover" src="../../../assets/images/portfolio.png" alt="Responsive image">
             </a>      
         </figure>
     </div>

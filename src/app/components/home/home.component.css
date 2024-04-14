@@ -11,4 +11,34 @@ body {
   transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the effects */
 }
 
+.svg-text {
 
+  font-size: 550px; /* Updated font size to 250px */
+  font-family:monospace;
+  stroke-dasharray: 2000; /* Adjusted to better fit the new font size */
+  stroke-dashoffset: 2000;
+  animation: drawText 5s forwards, pulse 3s infinite; /* Added pulse animation */
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -9999; /* Ensures SVG is in the background */
+  opacity: 0.1; /* Reduced opacity for subtlety */
+}
+
+@keyframes drawText {
+  to {
+      stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}

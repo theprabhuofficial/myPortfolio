@@ -9,7 +9,7 @@ import { PreloaderComponent } from './preloader/preloader.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { LoadingspinnerComponent } from './loadingspinner/loadingspinner.component';
 import { HomeComponent } from './home/home.component';
-
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -23,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent, 
