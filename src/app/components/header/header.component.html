@@ -18,7 +18,7 @@
           <li (click)="setActive('home')">
             <a routerLink="/home" 
                [ngClass]="{'active-link': activeLink === 'home'}"  
-               class="link block py-2 px-3 text-white  rounded md:bg-transparent md:p-0   md:dark:bg-transparent dark:hover:bg-gray-700" 
+               class="link block py-2 px-3 text-white md:bg-slate-900 sm:bg-slate-900 rounded md:bg-transparent md:p-0   md:dark:bg-transparent dark:hover:bg-gray-700" 
                aria-current="page">
               Home
             </a>
@@ -27,7 +27,7 @@
           
          
           <li (click)="setActive('education')">
-            <a href="javascript:void(0);" (click)="scrollToElement('education');" [ngClass]="{'active-link': activeLink === 'education'}"  class="link block py-2 px-3  rounded  md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+            <a href="javascript:void(0);" (click)="scrollToElement('education');" [ngClass]="{'active-link': activeLink === 'education'}"  class="link block py-2 px-3  rounded  md:hover:bg-transparent md:border-0  md:p-0 dark:text-white md:bg-slate-900 sm:bg-slate-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               Education
             </a>
           </li>
