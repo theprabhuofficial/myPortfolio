@@ -11,6 +11,7 @@ import { LoadingspinnerComponent } from './loadingspinner/loadingspinner.compone
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { EducationComponent } from './education/education.component';
+import { PopupComponent } from './popup/popup.component';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -19,6 +20,7 @@ import { EducationComponent } from './education/education.component';
     LoadingspinnerComponent,
     HomeComponent,
     EducationComponent,
+    PopupComponent,
   ],
   imports: [
     CommonModule,
@@ -35,7 +37,8 @@ import { EducationComponent } from './education/education.component';
     LoadingspinnerComponent,
     MatProgressSpinnerModule,
     HomeComponent,
-    EducationComponent
+    EducationComponent,
+    PopupComponent
   ]
 })
 export class ComponentModuleModule { }
