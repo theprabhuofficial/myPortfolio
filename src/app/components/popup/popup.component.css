@@ -1,4 +1,1 @@
  /* Hover state changes */
-button:hover {
-    background: linear-gradient(to right, violet, blue, black); /* Updated gradient on hover */
-  }

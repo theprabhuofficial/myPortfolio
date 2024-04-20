@@ -1,18 +1,16 @@
 <!-- This div acts as the popup, showing based on 'isPopupOpen' -->
 <div class="fixed inset-0 bg-gray-600 bg-opacity-50 z-50 flex justify-center items-center" *ngIf="isPopupOpen">
-  <div class="relative bg-white p-5 rounded-lg shadow-lg">
+  <div class="relative bg-gradient-to-r from-[#5E5368] to-[#000000]  p-5 rounded-lg shadow-lg">
     <!-- Button to close the popup without downloading, placed at the top right corner -->
     <button class="absolute top-0 right-0 m-2 p-1 bg-transparent border-none text-gray-700 hover:text-red-600" (click)="closePopup()">
-      <img src="../../../assets/images/cancel.png" alt="Close" class="w-6 h-6">
+      <img src="../../../assets/images/cancel.png" alt="Close" class="w-6 h-6 hover:w-8 hover:h-8">
     </button>
-    <h2 class="text-lg font-bold mb-4">Bhagyashri's CV</h2>
-<p>Thank you for your interest!</p>
-<p>I'm delighted to share my CV with you.</p>
-<p>Feel free to contact me for questions or opportunities.</p>
-
-     
+    <h2 class="text-lg font-bold mb-4 text-white">Bhagyashri's CV</h2>
+<p class="text-white">Thank you for your interest!</p>
+<p class="text-white">I'm delighted to share my CV with you.</p>
+<p class="text-white">Feel free to contact me for questions or opportunities.</p> 
     <!-- Button to download the CV and close the popup -->
-    <a href="../../../assets/files/Bhagyashri_CV.pdf" download class="flex items-center justify-center mt-2 text-center py-2 px-4 bg-green-500 text-white rounded hover:bg-green-700 transition duration-300" (click)="closePopup()">
+    <a href="../../../assets/files/Bhagyashri_CV.pdf" download class="flex items-center justify-center mt-2 text-center py-2  px-4 bg-gradient-to-r from-[#422419] to-[#12100E] hover:text-lg hover:font-bold hover:border-2 hover:border-white  rounded-full text-white " (click)="closePopup()">
       Download CV <img class="ml-2 w-5 h-5 sm:w-7 sm:h-7" src="../../../assets/images/download.png" alt="Download Icon">
   </a>
   
@@ -21,10 +19,10 @@
 
 <div class="flex items-center justify-center p-4">
   <!-- Button to open the popup with an inline icon -->
-  <button class=" rounded-full relative inline-flex items-center justify-center px-5 py-2 text-sm sm:text-lg lg:text-xl font-medium text-white  group overflow-hidden bg-black  focus:outline-none focus:ring-4 dark:focus:ring-blue-800 transition duration-300 hover:bg-gradient-to-r from-violet to-blue to-black border-2 border-solid border-purple-600"
-    (click)="openPopup()">
+  <button class="rounded-full relative inline-flex items-center justify-center px-5 py-2 text-sm sm:text-lg lg:text-xl font-medium text-white group overflow-hidden bg-black focus:outline-none focus:ring-4 dark:focus:ring-blue-800 transition duration-300 hover:bg-gradient-to-r from-violet to-blue to-black border-2 border-solid border-purple-600 hover:from-[#3E5151] hover:to-[#DECBA4]" (click)="openPopup()">
     Download CV
     <img class="ml-2 w-5 h-5 sm:w-7 sm:h-7" src="../../../assets/images/download.png" alt="">
-  </button>
+</button>
+
 </div>
 
