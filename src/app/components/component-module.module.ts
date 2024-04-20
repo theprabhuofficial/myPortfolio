@@ -12,6 +12,12 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { EducationComponent } from './education/education.component';
 import { PopupComponent } from './popup/popup.component';
+import { SkilsComponent } from './skils/skils.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ContactComponent } from './contact/contact.component';
+import { ContainerComponent } from './container/container.component';
+
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -21,6 +27,11 @@ import { PopupComponent } from './popup/popup.component';
     HomeComponent,
     EducationComponent,
     PopupComponent,
+    SkilsComponent,
+    ProjectsComponent,
+    ExperienceComponent,
+    ContactComponent,
+    ContainerComponent,
   ],
   imports: [
     CommonModule,
@@ -38,7 +49,12 @@ import { PopupComponent } from './popup/popup.component';
     MatProgressSpinnerModule,
     HomeComponent,
     EducationComponent,
-    PopupComponent
+    PopupComponent,
+    SkilsComponent,
+    ProjectsComponent,
+    ExperienceComponent,
+    ContactComponent,
+    ContainerComponent
   ]
 })
 export class ComponentModuleModule { }

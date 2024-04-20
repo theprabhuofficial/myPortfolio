@@ -13,13 +13,40 @@ export class HeaderComponent {
   activeLink: string = ''; //active link
   
   //after click on education button it redirect to education compopent within same page and also url will be update according to education component
+
+  // Scrolls to a specific element and updates the URL
   scrollToElement(elementId: string): void {
     const element = document.getElementById(elementId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      this.router.navigate(['/home/education']); // Adjust the URL without navigating away from the current view
+
+      // Update URL based on the elementId
+      switch (elementId) {
+        case 'home':
+          this.router.navigate(['/home']);
+          break;
+        case 'education':
+          this.router.navigate(['/home/education']);
+          break;
+        case 'skill':
+          this.router.navigate(['/home/skill']);
+          break;
+        case 'project':
+          this.router.navigate(['/home/project']);
+          break;
+        case 'experience':
+          this.router.navigate(['/home/experience']);
+          break;
+        case 'contact':
+          this.router.navigate(['/home/contact']);
+          break;
+        // add more cases as needed for other sections
+      }
+
+      this.setActive(elementId); // Update active link
     }
   }
+
   //active link on navigation 
   setActive(link: string): void {
     this.activeLink = link;
