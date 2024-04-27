@@ -17,6 +17,11 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContainerComponent } from './container/container.component';
+import { AllprojectsComponent } from './allprojects/allprojects.component';
+import { FrontendComponent } from './frontend/frontend.component';
+import { BackendComponent } from './backend/backend.component';
+import { WordpresComponent } from './wordpres/wordpres.component';
+import { FullstackComponent } from './fullstack/fullstack.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +37,11 @@ import { ContainerComponent } from './container/container.component';
     ExperienceComponent,
     ContactComponent,
     ContainerComponent,
+    AllprojectsComponent,
+    FrontendComponent,
+    BackendComponent,
+    WordpresComponent,
+    FullstackComponent,
   ],
   imports: [
     CommonModule,
@@ -54,7 +64,12 @@ import { ContainerComponent } from './container/container.component';
     ProjectsComponent,
     ExperienceComponent,
     ContactComponent,
-    ContainerComponent
+    ContainerComponent,
+    AllprojectsComponent,
+    FrontendComponent,
+    BackendComponent,
+    WordpresComponent,
+    FullstackComponent
   ]
 })
 export class ComponentModuleModule { }
