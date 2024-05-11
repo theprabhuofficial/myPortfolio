@@ -22,7 +22,8 @@ import { FrontendComponent } from './frontend/frontend.component';
 import { BackendComponent } from './backend/backend.component';
 import { WordpresComponent } from './wordpres/wordpres.component';
 import { FullstackComponent } from './fullstack/fullstack.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+ 
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -49,7 +50,9 @@ import { FullstackComponent } from './fullstack/fullstack.component';
     MatButtonModule,
     MatToolbarModule,
     MatProgressSpinnerModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     HeaderComponent, 

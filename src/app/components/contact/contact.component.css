@@ -1,5 +1,5 @@
-.cotacttesting{
-    width: 100%;
-    height: 800px;
-    background-color: blueviolet;
+.background_image{
+    background-image: url('../../../assets/images/ao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
