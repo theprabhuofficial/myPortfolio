@@ -23,6 +23,7 @@ export class ContactComponent {
   onSaveUser(){
     // debugger;
     const obj=this.userForm.value;
+    console.log(obj)
     // this.http.post('https://jsonplaceholder.typicode.com/posts',obj).subscribe((res:any)=>{
     //     alert('user created')
     // })
