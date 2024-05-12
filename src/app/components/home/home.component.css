@@ -47,3 +47,22 @@ body {
     margin-top:30px; /* Apply margin-top 30px within this range */
   }
 }
+
+@media (min-width: 640px) and (max-width: 730px) {
+  .custom-home-class{
+    margin-bottom: -80px;
+
+  }
+}
+@media (min-width:  730px) and (max-width: 1500px) {
+  .custom-home-class{
+    margin-bottom: -120px;
+
+  }
+}
+@media (min-width:  1500px) and (max-width: 2500px) {
+  .custom-home-class{
+    margin-bottom: -100px;
+
+  }
+}

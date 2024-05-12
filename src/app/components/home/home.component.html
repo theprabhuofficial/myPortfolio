@@ -1,8 +1,8 @@
 
 <!-- <router-outlet></router-outlet> -->
-<div id="home" class="grid mt-16 sm:mt-20 md:mt-16 grid-cols-2 gap-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 bg-gradient-to-r from-[#242D39] via-[#10253C] to-black background-container">
+<div id="home" class="grid mt-16 sm:mt-20 md:mt-16 grid-cols-2 gap-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 bg-gradient-to-r bg-[#080f16]  background-container custom-home-class">
     <!-- SVG for animated text -->
-    <svg class="svg-text hidden sm:hidden md:block lg:block xl:block" viewBox="0 0 1320 300" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 0;">
+    <svg class="svg-text hidden sm:hidden md:block lg:block xl:block" viewBox="0 0 1320 300" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 0;" style="z-index: 10;">
         <text x="50%" y="50%" dy=".3em" text-anchor="middle" class="animate-stroke" fill="transparent" stroke="white" stroke-width="5">
             HI
         </text>
@@ -22,12 +22,13 @@
      <app-popup></app-popup>        
     </div>
    
-    <div class="col-span-2  sm:col-span-1 flex justify-center items-center p-4 sm:p-6 md:p-8 lg:p-10 ">
-        <figure class="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 ">
+    <div class="col-span-2 sm:col-span-1 flex justify-center items-center p-4 sm:p-6 md:p-8 lg:p-10">
+        <figure class="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" style="z-index: 10;">
             <a>
-                <img class="rounded-full w-96 h-100vh border-solid border-4 border-purple-950  grow-on-hover" src="../../../assets/images/my_image2.png" alt="Responsive image">
+                <img class="rounded-full w-96 h-100vh border-solid border-4 border-purple-950 grow-on-hover" src="../../../assets/images/my_image2.png" alt="Responsive image">
             </a>      
         </figure>
     </div>
+    
 </div>
 
