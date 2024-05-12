@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-   mail_footer:string="bhagyashri16t@gmail.com";
+  text_message:string="Thank you!";
 }
