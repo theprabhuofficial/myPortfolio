@@ -40,6 +40,7 @@ export class HeaderComponent {
         case 'contact':
           this.router.navigate(['/home/contact']);
           break;
+        
         // add more cases as needed for other sections
       }
 

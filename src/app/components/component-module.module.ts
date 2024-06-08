@@ -23,6 +23,9 @@ import { BackendComponent } from './backend/backend.component';
 import { WordpresComponent } from './wordpres/wordpres.component';
 import { FullstackComponent } from './fullstack/fullstack.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HundredDaysOfLeetcodeComponent } from './leetcode/hundred-days-of-leetcode/hundred-days-of-leetcode.component';
+import { LeetcodeHeaderComponent } from './leetcode/leetcode-header/leetcode-header.component';
+import { LeetcodeHomeComponent } from './leetcode/leetcode-home/leetcode-home.component';
  
 @NgModule({
   declarations: [
@@ -43,6 +46,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BackendComponent,
     WordpresComponent,
     FullstackComponent,
+    HundredDaysOfLeetcodeComponent,
+    LeetcodeHeaderComponent,
+    LeetcodeHomeComponent,
   ],
   imports: [
     CommonModule,
@@ -72,7 +78,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FrontendComponent,
     BackendComponent,
     WordpresComponent,
-    FullstackComponent
+    FullstackComponent,
+    LeetcodeHeaderComponent,
+    LeetcodeHomeComponent,
+    HundredDaysOfLeetcodeComponent
   ]
 })
 export class ComponentModuleModule { }
