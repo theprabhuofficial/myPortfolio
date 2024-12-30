@@ -10,7 +10,7 @@ import { environment } from '../../../environment';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-  email_id:String="bhagyashri16t@gmail.com";
+  email_id:String="dxtprabh87@gmail.com";
   userForm: FormGroup;
 
   alertMessage: string | undefined;

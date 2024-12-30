@@ -9,7 +9,7 @@ import { Router} from '@angular/router';
 })
 export class HeaderComponent {
   constructor(private router: Router){}
-  mymail="bhagyashri16t@gmail.com";
+  mymail="dxtprabh87@gmail.com";
   activeLink: string = ''; //active link
   
   //after click on education button it redirect to education compopent within same page and also url will be update according to education component
